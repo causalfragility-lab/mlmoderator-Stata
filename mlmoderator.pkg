@@ -1,0 +1,36 @@
+v 3
+d mlmoderator: Robustness diagnostics and visualization for cross-level interactions in multilevel models
+d
+d mlmoderator provides a unified workflow for probing, plotting, and
+d assessing the robustness of two-way cross-level interaction effects
+d in mixed-effects models fitted with Stata's -mixed- command.
+d
+d Commands:
+d   mlmcenter   - grand-mean, group-mean, or within-between centering
+d   mlmprobe    - simple slopes at selected moderator values
+d   mlmjn       - Johnson-Neyman interval (analytical exact solution)
+d   mlmplot     - publication-ready interaction plot with confidence bands
+d   mlmsummary  - consolidated moderation report
+d   mlmvdecomp  - decompose slope variance into fixed vs random components
+d   mlmsens     - ICC-shift robustness and leave-one-cluster-out diagnostics
+d
+d Requires: Stata 14.1 or later
+d
+d Author: Subir Hait, Michigan State University
+d Support: https://github.com/causalfragility-lab/mlmoderator
+d
+f mlmcenter.ado
+f mlmcenter.sthlp
+f mlmprobe.ado
+f mlmprobe.sthlp
+f mlmjn.ado
+f mlmjn.sthlp
+f mlmplot.ado
+f mlmplot.sthlp
+f mlmsummary.ado
+f mlmsummary.sthlp
+f mlmvdecomp.ado
+f mlmvdecomp.sthlp
+f mlmsens.ado
+f mlmsens.sthlp
+f mlmoderator_demo.do
