@@ -33,4 +33,5 @@ f mlmvdecomp.ado
 f mlmvdecomp.sthlp
 f mlmsens.ado
 f mlmsens.sthlp
+f mlmoderator.sthlp
 f mlmoderator_demo.do
